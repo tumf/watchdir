@@ -10,9 +10,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Yoshihiro TAKAHARA"]
   s.date = %q{2011-01-12}
-  s.description = %q{
-  Watchdir is a command of watching the files modifications (like a watch command) .
-  }
+  s.description = %q{TODO: longer description of your gem}
   s.email = %q{y.takahara@gmail.com}
   s.executables = ["watchdir.rb", "watchdir"]
   s.extra_rdoc_files = [
@@ -36,7 +34,7 @@ Gem::Specification.new do |s|
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.4.1}
-  s.summary = %q{watch command for multiple files.}
+  s.summary = %q{TODO: one-line summary of your gem}
   s.test_files = [
     "spec/spec_helper.rb",
     "spec/watchdir_spec.rb"
