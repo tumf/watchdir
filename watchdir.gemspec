@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{watchdir}
-  s.version = "0.0.0"
+  s.version = "1.0.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Yoshihiro TAKAHARA"]
@@ -15,7 +15,6 @@ Gem::Specification.new do |s|
   s.executables = ["watchdir.rb", "watchdir"]
   s.extra_rdoc_files = [
     "LICENSE.txt",
-    "README",
     "README.rdoc"
   ]
   s.files = [
@@ -28,7 +27,8 @@ Gem::Specification.new do |s|
     "bin/watchdir.rb",
     "lib/watchdir.rb",
     "spec/spec_helper.rb",
-    "spec/watchdir_spec.rb"
+    "spec/watchdir_spec.rb",
+    "watchdir.gemspec"
   ]
   s.homepage = %q{http://github.com/tumf/watchdir}
   s.licenses = ["MIT"]
