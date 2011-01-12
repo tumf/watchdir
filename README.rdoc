@@ -1,6 +1,6 @@
 = watchdir
 
-watch command for multiple files.
+Command for watching to multiple files.
 
 == Usage
 
