@@ -33,7 +33,7 @@ opt.on('-d DIR1,DIR2...','--dir=DIR1,DIR2...',
 opt.on('-f','--flush'){ |v| $flush = true }
 opt.on('--growl'){ |v| $growl = true }
 
-opt.on('--$debug','$debug mode'){ |v| $debug = true }
+opt.on('--debug','debug mode'){ |v| $debug = true }
 
 opt.parse!(ARGV)
 patterns = []
