@@ -10,17 +10,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Yoshihiro TAKAHARA"]
   s.date = %q{2011-01-12}
-  s.description = %q{
-Usage: watchdir [options]
-        --help                       show this message
-    -e, --extensions=EXT1,EXT2...    comma separated extention(s)
-    -c, --command=COMMAND            execute when updated
-    -s, --sleep=SEC                  default 2 sec.
-    -d, --dir=DIR1,DIR2...           comma separated directories
-    -f, --flush
-        --growl
-        --debug                      debug mode
-  }
+  s.description = %q{ watch command for multiple files. }
   s.email = %q{y.takahara@gmail.com}
   s.executables = ["watchdir.rb", "watchdir"]
   s.extra_rdoc_files = [
