@@ -1,6 +1,18 @@
 = watchdir
 
-Description goes here.
+watch command for multiple files.
+
+== Usage
+
+Usage: watchdir [options]
+        --help                       show this message
+    -e, --extensions=EXT1,EXT2...    comma separated extention(s)
+    -c, --command=COMMAND            execute when updated
+    -s, --sleep=SEC                  default 2 sec.
+    -d, --dir=DIR1,DIR2...           comma separated directories
+    -f, --flush
+        --growl
+        --debug                      debug mode
 
 == Contributing to watchdir
  
