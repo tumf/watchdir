@@ -4,7 +4,7 @@ Command for watching to multiple files.
 
 == Usage
 
-Usage: watchdir [options]
+ Usage: watchdir [options]
         --help                       show this message
     -e, --extensions=EXT1,EXT2...    comma separated extention(s)
     -c, --command=COMMAND            execute when updated
