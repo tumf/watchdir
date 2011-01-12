@@ -15,8 +15,18 @@ Jeweler::Tasks.new do |gem|
   gem.name = "watchdir"
   gem.homepage = "http://github.com/tumf/watchdir"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{ Watchdir is a command for watching change of files to execute command. }
+  gem.description = %Q{
+Usage: watchdir [options]
+        --help                       show this message
+    -e, --extensions=EXT1,EXT2...    comma separated extention(s)
+    -c, --command=COMMAND            execute when updated
+    -s, --sleep=SEC                  default 2 sec.
+    -d, --dir=DIR1,DIR2...           comma separated directories
+    -f, --flush
+        --growl
+        --debug                      debug mode
+  }
   gem.email = "y.takahara@gmail.com"
   gem.authors = ["Yoshihiro TAKAHARA"]
   # Include your dependencies below. Runtime dependencies are required when using your gem,
