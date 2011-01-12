@@ -2,6 +2,10 @@
 
 Command for watching to multiple files.
 
+== Install
+
+ sudo gem install watchdir
+
 == Usage
 
  Usage: watchdir [options]
