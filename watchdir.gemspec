@@ -5,14 +5,15 @@
 
 Gem::Specification.new do |s|
   s.name = %q{watchdir}
-  s.version = "1.0.2"
+  s.version = "1.0.4"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Yoshihiro TAKAHARA"]
-  s.date = %q{2011-01-12}
+  s.date = %q{2011-01-17}
+  s.default_executable = %q{watchdir}
   s.description = %q{ watch command for multiple files. }
   s.email = %q{y.takahara@gmail.com}
-  s.executables = ["watchdir.rb", "watchdir"]
+  s.executables = ["watchdir"]
   s.extra_rdoc_files = [
     "LICENSE.txt",
     "README.rdoc"
@@ -24,7 +25,6 @@ Gem::Specification.new do |s|
     "Rakefile",
     "VERSION",
     "bin/watchdir",
-    "bin/watchdir.rb",
     "lib/watchdir.rb",
     "spec/spec_helper.rb",
     "spec/watchdir_spec.rb",
@@ -33,7 +33,7 @@ Gem::Specification.new do |s|
   s.homepage = %q{http://github.com/tumf/watchdir}
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
-  s.rubygems_version = %q{1.4.1}
+  s.rubygems_version = %q{1.4.2}
   s.summary = %q{Watchdir is a command for watching change of files to execute command.}
   s.test_files = [
     "spec/spec_helper.rb",
